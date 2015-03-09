@@ -216,7 +216,7 @@
                         <div class="content" class="">
                             <h2>Soin anti-âge</h2>
                             <nav class="cl-effect-11" id="cl-effect-11">
-                                <a href="photorajeunissement.html" data-hover="decouvrir">decouvrir</a>
+                                <a href="anti_age.html" data-hover="decouvrir">decouvrir</a>
                             </nav>
                         </div>
                     </div>
@@ -291,13 +291,16 @@
                               <span class="glyphicon glyphicon-phone"></span> +212 661 32 13 22 <br>
                               <span class="glyphicon glyphicon-envelope"></span> contact@relooking-kenitra.com</p>
                     </address>
+                    <div class="social"><a href="facebook.com" data-hover="`">`</a></div>
                 </div>
             </div>
             <!-- ./Row -->
         </div>
     </section>
+    
     <!-- Footer -->
     <section id="footer">
+    <hr>
         <div class="container">
             <div class="row cl-effect-15">
                 &copy; Relooking Kenitra 2015
