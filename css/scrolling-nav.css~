@@ -110,8 +110,8 @@ of those sections to manage the look and feel of the site. */
 .contact-section {
     height: auto;
     padding: 80px;
-    background: #1d1d1d;
-    color: #fff;
+    background: #fff;
+    color: #1d1d1d;
 }
 
 .hilite {
