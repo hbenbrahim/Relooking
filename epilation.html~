@@ -52,17 +52,17 @@
             <div class="col-md-7">
                 <h2 class="featurette-heading">R&eacute;sultats durables en <span class="text-muted">10 s&eacute;ances</span></h2>
                 <p class="lead">
-                    &bull; Sans effets secondaires
+                    <span class="glyphicon glyphicon-arrow-right"></span> Sans effets secondaires
                     <br>
-                    &bull; Toutes peaux (fonc&eacute;e, claire)
+                    <span class="glyphicon glyphicon-arrow-right"></span> Toutes peaux (fonc&eacute;e, claire)
                     <br>
-                    &bull; Tous poils (blond, noir, roux)
+                    <span class="glyphicon glyphicon-arrow-right"></span> Tous poils (blond, noir, roux)
                     <br>
-                    &bull; Visible d&egrave;s les 1&egrave;res s&eacute;ances
+                    <span class="glyphicon glyphicon-arrow-right"></span> Visible d&egrave;s les 1&egrave;res s&eacute;ances
                     <br>
-                    &bull; Confortable et Rapide
+                    <span class="glyphicon glyphicon-arrow-right"></span> Confortable et Rapide
                     <br>
-                    &bull; Efficace et &agrave; faible coût</p>
+                    <span class="glyphicon glyphicon-arrow-right"></span> Efficace et &agrave; faible coût</p>
             </div>
             <div class="col-md-5">
                 <img class="featurette-image img-responsive" src="http://www.relooking-cms.com/CMS/documents/4861/zone_a_traiter_epilation.png" alt="zone_a_traiter">
