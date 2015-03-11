@@ -41,37 +41,43 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-7" data-sr="enter left">
-                <h2 class="featurette-heading">PhotoRajeunissement visage et cou <p class="text-muted">La R&eacute;juvenation en un flash!</p></h2>
-                <p class="lead">
-                    Le Rajeunissement cutané :
-                    <br>
-                    <span class="glyphicon glyphicon-arrow-right"></span>Améliore l’élasticité de la peau Stimulation progressive du collagène naturel Homogéneise le teint
-                    <br>
-                    <span class="glyphicon glyphicon-arrow-right"></span>Résultats durables en 5 séances sans effets secondaires
-                    <br>
-                    <span class="glyphicon glyphicon-arrow-right"></span>Visible dès les 1ères séances
-                    <br>
-                    <span class="glyphicon glyphicon-arrow-right"></span>Améliore la texture de la peau, resserre les pores dilatés
-                    <br>
-                    <span class="glyphicon glyphicon-arrow-right"></span>Indolore - rapide - efficace à faible coût
-            </div>
-            <div class="col-md-5" data-sr="enter right">
-                <img class="featurette-image img-responsive" src="http://www.relooking-cms.com/CMS/documents/4861/visage.png" alt="zone_a_traiter">
-            </div>
+            <div class="col-md-12" data-sr="enter left">
+                <h2 class="featurette-heading">Soins <span class="text-muted">Visage</span></h2>
+				</div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
             <div class="col-md-12" data-sr="enter left">
-                <p class="lead">La lumière pulsée émise lors d’un flash <span class="hilite">réduit les effets du vieillissement cutané</span>. Ce traitement <span class="hilite">stimule la production de collagène</span>, modifie le tissu connectif, resserre les pores dilatés, améliore l’élasticité de la peau et réduit les ridules.</p>
-                <p class="lead"><span class="hilite">Effet antirides et coup d’éclat immédiat</span>. Pratiquée sur toutes les parties du corps, principalement le visage, le cou, le décolleté, les bras et les mains, pour les femmes comme pour les hommes.</p>
-                <p class="lead">Le résultat est visible progressivement. 5 séances toutes les 3 semaines suffisent en général pour obtenir le résultat escompté. Puis 1 à 2 séances de maintien tous les 6 mois.</p>
-                <p class="lead">La technique est <span class="hilite">plus efficace que les techniques cosmétiques</span>, car la lumière pénètre dans les tissus pour stimuler l’activité cellulaire, et est bien moins coûteuse qu’une intervention chirurgicale.</p>
+               <p class="lead"><span class="hilite">Soin hydratant (45 min) : </span>
+					<br>Véritable bain d'hydratation pour un délicieux moment de relaxation.
+					<br>Désaltérée, la peau retrouve confort, souplesse et éclat.
+					</p>
             </div>
         </div>
+        
+        <hr class="featurette-divider">
 
+        <div class="row featurette">
+            <div class="col-md-12" data-sr="enter left">
+               <p class="lead"><span class="hilite">Soin nettoyant sublime éclat (1h) : </span>
+					<br>Equilibrant et purifiant, il nettoie en profondeur les impuretées et cellules mortes tout en stimulant le renouvellement cellulaire.
+					</p>
+            </div>
+        </div> 
+        
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-12" data-sr="enter left">
+               <p class="lead"><span class="hilite">Elixir de jeunesse (1h30) : </span>
+						<br>Anti-âge à base de collagène marin, il tonifie, régénère et lisse rides et ridules. il redessine les traits du visage, raffermit et redonne à la peau un teint éclatant de vitalité grâce au sérum riche en actifs régénérants et liftants.
+					</p>
+            </div>
+        </div>        
+						
+			
         <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
