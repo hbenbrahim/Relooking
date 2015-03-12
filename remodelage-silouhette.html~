@@ -81,13 +81,19 @@
         </div>
     </section>
     <!-- ./About Section -->
+    <div class="row cl-effect-15" style="background-color:#1d1d1d; padding:20px;">
+    	<div class="container">
+    		<p><h2>D&eacute;couvrer votre poids id&eacute;al ! </h2></p>
+    		<a class="lead" href="Remodelage/imc.html" data-hover="Calculez votre IMC !">Calculez votre IMC !</a>
+    	</div>
+    </div>
 
     <!-- Footer -->
     <section id="footer">
         <div class="container">
             <div class="row cl-effect-15">
                 &copy; Relooking Kenitra 2015
-                <a href="#cl-effect-15" data-hover="Mentions Légales">Mentions L&eacute;gales</a>
+                <a href="mentions_legales.html" data-hover="Mentions Légales">Mentions L&eacute;gales</a>
                 <div class="pull-right">
                     R&eacute;alisation <a href="http://webuildmedia.com" data-hover="WebuildMedia">WebuildMedia</a>
                 </div>
