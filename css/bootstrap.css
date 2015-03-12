@@ -4380,7 +4380,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #1d1d1d;
+<<<<<<< HEAD
   border-color: #000;
+=======
+  border-color: #e7e7e7;
+>>>>>>> efafaa71a8ed294c441fb4621f884dca3702c30e
 }
 .navbar-default .navbar-brand {
   color: #777;
