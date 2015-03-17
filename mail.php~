@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_ALL);
 /*
 	********************************************************************************************
 	CONFIGURATION
@@ -59,7 +58,7 @@ $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
 					'X-Mailer:PHP/'.phpversion();
  
 	// envoyer une copie au visiteur ?
-	if ($copie == 'non')
+	if ($copie == 'oui')
 	{
 		$cible = $destinataire.','.$email;
 	}
