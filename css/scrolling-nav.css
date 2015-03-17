@@ -70,6 +70,12 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 
+.imc-section {
+    height: auto;
+    padding: 80px;
+    text-align: center;
+}
+
 .services-section {
     height: auto;
     padding: 50px;
@@ -190,5 +196,14 @@ hr.soften {
 
 .form-control {
     color:#1d1d1d;
+}
+
+.blacklink {
+    color : #2d2d2d;
+}
+
+.blacklink:hover {
+    color: #1d1d1d;
+    
 }
   
