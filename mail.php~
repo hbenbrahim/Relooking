@@ -1,11 +1,12 @@
 <?php
+error_reporting(E_ALL);
 /*
 	********************************************************************************************
 	CONFIGURATION
 	********************************************************************************************
 */
 // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-$destinataire = 'webuildmedia@gmail.com';
+$destinataire = 'contact@relookingkenitra.com';
  
 // copie ? (envoie une copie au visiteur)
 $copie = 'oui'; // 'oui' ou 'non'
@@ -58,7 +59,7 @@ $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
 					'X-Mailer:PHP/'.phpversion();
  
 	// envoyer une copie au visiteur ?
-	if ($copie == 'oui')
+	if ($copie == 'non')
 	{
 		$cible = $destinataire.','.$email;
 	}
