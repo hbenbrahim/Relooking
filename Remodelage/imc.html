@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Hamza Benbrahim" >
 
-    <title>Institut de Beauté et Centre de Soins Esthétiques Kenitra | Relooking Kenitra</title>
+    <title>Institut de Beaut&eacute; et Centre de Soins Esth&eacute;tiques Kenitra | Relooking Kenitra</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="../css/scrolling-nav.css" rel="stylesheet">
     <link href="../css/component.css" rel="stylesheet">
-    <link href="../css/cellulite.css" rel="stylesheet">
+    <link href="../css/perte-volume.css" rel="stylesheet">
 
 </head>
 
@@ -39,56 +39,78 @@
     <!-- START THE FEATURETTES -->
     <div class="container">
         <hr class="featurette-divider">
-        <div class="row featurette" data-sr="enter left">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">La technique :</h2>
-                <p class="lead">
-                    La cavitation par ultrasons non focalisés libère un concentré d’énergie capable de briser la membrane des cellules graisseuses.
-                    <br>Les résidus et les graisses émulsifiées seront éliminés par le système immunitaire et l’activité métabolique.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" src="http://www.relooking-cms.com/CMS/documents/4861/zone_a_traiter.png" alt="zone_a_traiter">
-            </div>
+
+        <div class="row featurette">
+            <div class="col-md-12" data-sr="enter left">
+                <h2 class="featurette-heading">Calculez <span class="text-muted">votre IMC</span></h2>
+				</div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-5" data-sr="enter left">
-                <object width="100%" height="300px" data="http://www.relooking-cms.com/CMS/documents/4861/videos/mediaplayer.swf" type="application/x-shockwave-flash">
-                    <param name="flashvars" value="autostart=false&amp;overstretch=fit&amp;repaet=true&amp;file=http://www.relooking-cms.com/CMS/documents/4861/videos/ultrasons.flv" />
-                    <param name="src" value="http://www.relooking-cms.com/CMS/documents/4861/videos/mediaplayer.swf" />
-                    <param name="wmode" value="transparent" />
-                    <param name="allowfullscreen" value="true" />
-                </object>
-            </div>
-            <div class="col-md-7" data-sr="enter right">
-                <h2 class="featurette-heading">RESULTATS IMMEDIATS<span class="text-muted"> VISIBLES DES LA 1ER SEANCE ET DURABLES</span></h2>
-                <p class="lead">Les résultats :
-                    <br>
-                    &bull; Indolore et non invasif
-                    <br>
-                    &bull; Effets immédiats sur la silhouette : Perte de cm
-                    <br>
-                    &bull; Diminution du périmètre de la zone traitée allant de 5 à 12 cm
-                    <br>
-                    &bull; Effets immédiats sur la peau d’orange</p>
+            <div class="col-md-12" data-sr="enter left">
+               <p class="lead"><span class="hilite">Calcul : </span>
+						<br><input onkeyup="compute();" type="text" class="form-control" name="Weight" id="Weight" placeholder="Poids (kg)">
+						<br><input onkeyup="compute();" type="text" class="form-control" name="Height" id="Height" placeholder="Longueur (cm)">
+						<br><input type="text" class="form-control" name="IMC" id="IMC" placeholder="IMC" readonly>
+					</p>
             </div>
         </div>
-
+        
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-7" data-sr="enter left">
-                <h2 class="featurette-heading">RESULTATS IMMEDIATS<span class="text-muted"> VISIBLES DES LA 1ER SEANCE ET DURABLES</span></h2>
-                <p class="lead">Zones ciblées : La cavitation permet de cibler des zones très spécifiques : la culotte de cheval, les hanches, le ventre, les poignées d’amour, les cuisses...
-                    <br>6 à 10 séances de 20 à 30 min espacées de 7 jours sont nécessaires.</p>
+            <div class="col-md-12" data-sr="enter left">
+               <p class="lead">
+						L’indice de masse corporelle (IMC; en anglais, BMI: Body Mass Index) est une grandeur qui permet d’estimer la corpulence d’une personne.
+						<br>Cet indice se calcule en fonction de la taille et de la masse. Bien qu’il fût conçu au départ pour les adultes de 18 à 65 ans, de nouveaux diagrammes de croissance ont vu le jour au cours des dernières décennies pour les enfants de 0 à 18 ans. Dans les deux cas, il constitue une indication et intervient dans le calcul de l’IMG.
+						<br>Cet indice à été inventé par Lambert Adolphe Jacques Quételet               
+               </p>
             </div>
-            <div class="col-md-5" data-sr="enter right">
-                <iframe width="100%" height="300px" src="https://www.youtube.com/embed/tkXI_2DJBD8" frameborder="0"></iframe>
-            </div>
-        </div>
+        </div> 
+        
+        <hr class="featurette-divider">
 
+        <div class="row featurette">
+            <div class="col-md-12" data-sr="enter left">
+               <p class="lead"><span class="hilite">Interpr&eacute;tation des r&eacute;sultats</span> </p>
+						<table style="width: 100%; border-collapse: collapse;" border="0">
+							<tbody>
+								<tr>
+									<td>moins de 16,5</td>
+									<td>d&eacute;nutrition</td>
+								</tr>
+								<tr>
+									<td>16,5 &agrave; 18,5</td>
+									<td>maigreur</td>
+								</tr>
+								<tr>
+									<td>18,5 &agrave; 25</td>
+									<td>corpulence normale</td>
+								</tr>
+								<tr>
+									<td>25 &agrave; 30</td>
+									<td>surpoids</td>
+								</tr>
+								<tr>
+									<td>30 &agrave; 35</td>
+									<td>ob&eacute;sit&eacute; mod&eacute;r&eacute;e</td>
+								</tr>
+								<tr>
+									<td>35 &agrave; 40</td>
+									<td>ob&eacute;sit&eacute; s&eacute;v&egrave;re</td>
+								</tr>
+								<tr>
+									<td>plus de 40</td>
+									<td>ob&eacute;sit&eacute; morbide ou massive</td>
+								</tr>
+						</tbody>
+					</table>					
+            </div>
+        </div>        
+						
+			
         <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
@@ -97,7 +119,7 @@
         <div class="container">
             <div class="row cl-effect-15">
                 &copy; Relooking Kenitra 2015
-                <a href="../mentions_legales.html" data-hover="Mentions Légales">Mentions L&eacute;gales</a>
+                <a href="#cl-effect-15" data-hover="Mentions L&eacute;gales">Mentions L&eacute;gales</a>
                 <div class="pull-right">
                     R&eacute;alisation <a href="http://webuildmedia.com" data-hover="WebuildMedia">WebuildMedia</a>
                 </div>
@@ -107,6 +129,7 @@
     </section>
     <script src="../js/scroll-reveal.js"></script>
     <script src="../js/jquery.easing.min.js"></script>
+	<script src="../js/imc.js"></script>
     <script type="text/javascript">
         (function ($) {
 
