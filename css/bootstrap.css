@@ -1053,6 +1053,7 @@ img {
 }
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   display: block;
+  min-width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -5181,6 +5182,7 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
+  min-width: 100%;
   position: relative;
 }
 .carousel-inner {
@@ -5379,6 +5381,14 @@ button.close {
   }
   .carousel-indicators {
     bottom: 20px;
+  }
+}
+@media screen and (max-device-width: 800px) {
+  .carousel {
+    margin-top: 60px;
+  }
+  .btn {
+    visibility: hidden;
   }
 }
 .clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
