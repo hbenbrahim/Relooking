@@ -130,6 +130,26 @@ of those sections to manage the look and feel of the site. */
   color: #1d1d1d;
   background-size: auto;
 }
+
+.catalog_service {
+	overflow: hidden;
+}
+
+.catalog_service img{
+	height: 75%;
+	width: 75%;
+	background-color: #B90063;
+   display: inline-block;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.catalog_service img:hover {
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+    opacity: .5;
+}
+
 #footer {
   color: #fff;
   background-color: #1d1d1d;
